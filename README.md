@@ -2,6 +2,7 @@
 Repositório destinado ao meu projeto feito na semana de imersão da Alura com Google Gemini
 
 ## OBS: ainda estou desenvolvendo
+# https://yagolima1.github.io/Imersao_DevAlura/
 
 
 ### **Red Dead Redemption 2: Enciclopédia da Gangue Van der Linde** 
