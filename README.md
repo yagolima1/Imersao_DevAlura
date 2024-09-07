@@ -2,10 +2,15 @@
 Repositório destinado ao meu projeto feito na semana de imersão da Alura com Google Gemini
 
 ## OBS: ainda estou desenvolvendo
-#
+
+![Print da Home do Site](Home.jpg)
+
+<br>
+
+![Print da Pesquisa do Site](Pesquisa.jpg)
 
 
-### **Red Dead Redemption 2: Enciclopédia da Gangue Van der Linde** 
+# **Red Dead Redemption 2: Enciclopédia da Gangue Van der Linde** 
 
 **O que é isso?**
 
