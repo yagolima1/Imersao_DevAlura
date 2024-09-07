@@ -11,7 +11,7 @@ function pesquisar() {
     if (!campoPesquisa){
        section.innerHTML = "<p>Nada foi Encontrado !</p>"
        alert("Você precisa digitar o nome de um personagem")
-        return
+       return
     }
   
     campoPesquisa = campoPesquisa.toLowerCase()
@@ -27,11 +27,12 @@ function pesquisar() {
         nome = dado.nome.toLowerCase()
         descricao = dado.descricao.toLowerCase()
 
-        if ( nome.includes(campoPesquisa)|| descricao.includes(campoPesquisa)){
+        if ( nome.includes(campoPesquisa) || descricao.includes(campoPesquisa)){
        
-      // Constrói o HTML para cada personagem, utilizando template literal
-      resultados += `
+        // Constrói o HTML para cada personagem, utilizando template literal
+        resultados += `
         <div class="item-resultado">
+          <img src="${dado.imagem}" alt="${dado.nome}">
           <h2>
             <a href="#" target="_blank">${dado.nome}</a>
           </h2>
@@ -44,4 +45,4 @@ function pesquisar() {
   
     // Insere os resultados formatados na seção HTML
     section.innerHTML = resultados;
-  }
+}
